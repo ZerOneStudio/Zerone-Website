@@ -89,11 +89,21 @@ header {
     color: white;
 }
 
-.about {
-    margin: auto;
-    text-align: center;
-    width: 410px;
+.section_icon{
+    margin: auto 10%;
 }
+
+.section_block {
+    margin: 8% auto;
+    text-align: center;
+    /*width: 40%;*/
+}
+.content_row{
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+}
+
 
 #about_icon {
     width: 100px;
@@ -117,3 +127,18 @@ header {
     margin: 30px auto auto auto;
 }
 
+#service{
+    background: url("../img/WorkPage for Web.jpg");
+    background-size: cover;
+    margin-top: -25%;
+}
+.promo {
+    -webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+    clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+}
+.block{
+    padding-top: 15%;
+}
+.section_block>.content_row{
+    padding-bottom: 15%;
+}
