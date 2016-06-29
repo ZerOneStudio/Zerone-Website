@@ -1,61 +1,68 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	width: 90%;
-	margin: auto;
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 header {
-	background-image: url(../img/Zero%20to%20One.jpg);
-	background-size: cover;
-	height: 650px;
-	color: white;
+    background-image: url(../img/Zero%20to%20One.jpg);
+    background-size: cover;
+    height: 650px;
+    color: white;
 }
 
+.navbar-default {
+    background:transparent;
+    border-color: transparent;
+}
 #nav {
-	padding-top: 25px;
-	width:50%;
-	margin:0 auto;
-	list-style:none;
+    padding-top: 25px;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
 }
+
 #nav li {
-	float:left;
+    float: left;
 }
+
 #nav a {
-	display:block;
-	text-align:center;
-	margin: 0 26px;
-	text-decoration:none; 
-	color: white;
-	font-size: 16px;
-}
-	
-#logo{
-	margin: 70px auto auto auto;
-	width: 150px;
-	height: 150px;
-	background-image: url(../img/Zerone_logo_2.svg);
-	background-size: cover;
+    display: block;
+    text-align: center;
+    margin: 0 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
-#name{
-	margin: 50px auto auto auto;
-	text-align: center;
-	font-size: 80px;
+#logo {
+    margin: 70px auto auto auto;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/Zerone_logo_2.svg);
+    background-size: cover;
 }
 
-#slogan{
-	margin: 0px auto auto auto;
-	text-align: center;
-	font-size: 30px;
+#name {
+    margin: 50px auto auto auto;
+    text-align: center;
+    font-size: 80px;
 }
 
-#more{
-	font-size: 20px;
-	color: white;
-	overflow: hidden;
-	text-align: center;
-	margin: 135px auto auto auto;
+#slogan {
+    margin: 0px auto auto auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+#more {
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    margin: 135px auto auto auto;
 }
 
 #more:before, #more:after {
@@ -67,43 +74,71 @@ header {
     vertical-align: middle;
     width: 40px;
 }
+
 #more:before {
     right: 0.1em;
     margin-right: 5px;
 }
+
 #more:after {
     left: 0.1em;
     margin-left: 5px;
 }
-#more a{
-	color: white;
+
+#more a {
+    color: white;
 }
 
-.about{
-	margin: auto;
-	text-align: center;
-	width: 410px;
+.section_icon{
+    margin: auto 10%;
 }
 
-#about_icon{
-	width: 100px;
-	height: 100px;
-	margin: 50px auto auto auto;
+.section_block {
+    margin: 8% auto;
+    text-align: center;
+    /*width: 40%;*/
+}
+.content_row{
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
 }
 
-.about h1{
-	margin: 20px auto auto auto;
-	font-size: 60px;
-	border-bottom: solid 1px black;
-	padding-bottom: 20px;
-	width: 300px;
+
+#about_icon {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto auto auto;
 }
 
-.about h2{
-	margin-top: 30px;
+.about h1 {
+    margin: 20px auto auto auto;
+    font-size: 60px;
+    border-bottom: solid 1px black;
+    padding-bottom: 20px;
+    width: 300px;
 }
 
-.about p{
-	margin: 30px auto auto auto;
+.about h2 {
+    margin-top: 30px;
 }
 
+.about p {
+    margin: 30px auto auto auto;
+}
+
+#service{
+    background: url("../img/WorkPage for Web.jpg");
+    background-size: cover;
+    margin-top: -25%;
+}
+.promo {
+    -webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+    clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+}
+.block{
+    padding-top: 15%;
+}
+.section_block>.content_row{
+    padding-bottom: 15%;
+}
