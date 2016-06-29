@@ -10,7 +10,7 @@ header {
     background-image: url(../img/Zero%20to%20One.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 650px;
+    height: 100%;
     color: white;
 }
 
@@ -38,24 +38,26 @@ header {
     font-size: 16px;
 }
 
-#logo {
-    margin: 70px auto auto auto;
-    width: 150px;
-    height: 150px;
-    background-image: url(../img/Zerone_logo_2.svg);
-    background-size: cover;
+.logo {
+    margin: 5% auto;
+    text-align: center;
+    /*width: 10%;*/
+    /*height: auto;*/
+    /*background-image: url(../img/Zerone_logo_2.svg);*/
+    /*background-size: cover;*/
 }
 
 #name {
-    margin: 50px auto auto auto;
+    margin: 2% auto auto auto;
     text-align: center;
-    font-size: 80px;
+    font-size: 10em;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #slogan {
     margin: 0px auto auto auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 6em;
 }
 
 #more {
@@ -63,7 +65,7 @@ header {
     color: white;
     overflow: hidden;
     text-align: center;
-    margin: 135px auto auto auto;
+    margin: 5% auto auto auto;
 }
 
 #more:before, #more:after {
@@ -147,4 +149,8 @@ header {
 .nav-center{
     display: inline-block;
     float: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 1.5em;
 }
