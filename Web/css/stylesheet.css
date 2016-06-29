@@ -6,7 +6,7 @@ body{
 }
 
 header {
-	background-image: url(../Webpics/Zero%20to%20One.jpg);
+	background-image: url(../img/Zero%20to%20One.jpg);
 	background-size: cover;
 	height: 650px;
 	color: white;
@@ -34,7 +34,7 @@ header {
 	margin: 70px auto auto auto;
 	width: 150px;
 	height: 150px;
-	background-image: url(../Zerone%20Logo/Zerone_logo_2.svg);
+	background-image: url(../img/Zerone_logo_2.svg);
 	background-size: cover;
 }
 
