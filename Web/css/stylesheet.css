@@ -13,6 +13,10 @@ header {
     color: white;
 }
 
+.navbar-default {
+    background:transparent;
+    border-color: transparent;
+}
 #nav {
     padding-top: 25px;
     width: 50%;
