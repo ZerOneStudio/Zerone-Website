@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	background-image: url(../Webpics/Zero%20to%20One.jpg);
+	background-size: cover;
+	height: 650px;
+	color: white;
+}
+
+#nav {
+	padding-top: 25px;
+	width:50%;
+	margin:0 auto;
+	list-style:none;
+}
+#nav li {
+	float:left;
+}
+#nav a {
+	display:block;
+	text-align:center;
+	margin: 0 26px;
+	text-decoration:none; 
+	color: white;
+	font-size: 16px;
+}
+	
+#logo{
+	margin: 70px auto auto auto;
+	width: 150px;
+	height: 150px;
+	background-image: url(../Zerone%20Logo/Zerone_logo_2.svg);
+	background-size: cover;
+}
+
+#name{
+	margin: 50px auto auto auto;
+	text-align: center;
+	font-size: 80px;
+}
+
+#slogan{
+	margin: 0px auto auto auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+#more{
+	font-size: 20px;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+	margin: 135px auto auto auto;
+}
+
+#more:before, #more:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40px;
+}
+#more:before {
+    right: 0.1em;
+    margin-right: 5px;
+}
+#more:after {
+    left: 0.1em;
+    margin-left: 5px;
+}
+#more a{
+	color: white;
+}
+
+.about{
+	margin: auto;
+	text-align: center;
+	width: 410px;
+}
+
+#about_icon{
+	width: 100px;
+	height: 100px;
+	margin: 50px auto auto auto;
+}
+
+.about h1{
+	margin: 20px auto auto auto;
+	font-size: 60px;
+	border-bottom: solid 1px black;
+	padding-bottom: 20px;
+	width: 300px;
+}
+
+.about h2{
+	margin-top: 30px;
+}
+
+.about p{
+	margin: 30px auto auto auto;
+}
+
