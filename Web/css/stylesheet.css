@@ -9,6 +9,7 @@ html, body {
 header {
     background-image: url(../img/Zero%20to%20One.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 650px;
     color: white;
 }
@@ -94,16 +95,14 @@ header {
 }
 
 .section_block {
-    margin: 8% auto;
+    margin: 5% auto;
     text-align: center;
-    /*width: 40%;*/
 }
 .content_row{
     width: 40%;
     margin: 2% auto;
     text-align: center;
 }
-
 
 #about_icon {
     width: 100px;
@@ -141,4 +140,11 @@ header {
 }
 .section_block>.content_row{
     padding-bottom: 15%;
+}
+.navbar-center{
+    text-align: center;
+}
+.nav-center{
+    display: inline-block;
+    float: none;
 }
