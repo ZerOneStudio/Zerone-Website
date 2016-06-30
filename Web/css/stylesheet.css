@@ -91,7 +91,12 @@ header {
 #more a {
     color: white;
 }
-
+.line{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border: 1px black solid;
+}
 .section_icon{
     margin: auto 10%;
 }
@@ -99,6 +104,14 @@ header {
 .section_block {
     margin: 5% auto;
     text-align: center;
+}
+.section_title{
+    font-size: 9em;
+}
+.section_subtitle{
+    font-size: 4em;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .content_row{
     width: 40%;
@@ -153,4 +166,40 @@ header {
 .navbar-default .navbar-nav>li>a {
     color: white;
     font-size: 1.5em;
+}
+#work{
+    margin-top: -20%;
+}
+#work>.content_row{
+    margin: 2% auto 0 auto;
+    padding-bottom: 0;
+}
+.hexagon_image{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform:rotate(15deg);
+    -ms-transform:rotate(15deg); 	/* IE 9 */
+    -moz-transform:rotate(15deg); 	/* Firefox */
+    -webkit-transform:rotate(15deg); /* Safari 和 Chrome */
+    -o-transform:rotate(15deg);
+}
+.hexagon {
+    display: inline;
+    float: left;
+    height: 300px;
+    width: 350px;
+}
+#hex_first{
+    margin: 0 0 0 35%;
+}
+#hex_second {
+    margin: 80px 0 0 -60px;
+}
+#hex_third {
+    clear: left;
+    margin: -180px 0 0 300px;
+}
+#hex_forth{
+    clear: left;
+    margin: -220px 0 0 590px;
 }
