@@ -95,9 +95,9 @@ header {
 }
 .line{
     margin-bottom: 20px;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
-    border: 1px black solid;
+    border-top: 1px black solid;
 }
 .section_icon{
     margin: auto 10%;
@@ -116,7 +116,7 @@ header {
     margin-bottom: 5%;
 }
 .content_row{
-    width: 40%;
+    /*width: 40%;*/
     margin: 2% auto;
     text-align: center;
 }
