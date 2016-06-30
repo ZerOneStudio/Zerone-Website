@@ -107,11 +107,11 @@ header {
     margin: 5% auto;
     text-align: center;
 }
-.section_title{
-    font-size: 3em;
-}
+/*.section_title{*/
+    /*font-size: 3em;*/
+/*}*/
 .section_subtitle{
-    font-size: 4em;
+    /*font-size: 4em;*/
     margin-top: 5%;
     margin-bottom: 5%;
 }
