@@ -209,6 +209,7 @@ header {
     width: 350px;
 }
 #hex_first{
+    clear: left;
     margin: 0 0 0 35%;
 }
 #hex_second {
