@@ -195,9 +195,16 @@ header {
     -o-filter: grayscale(0%);
     filter: grayscale(0%);
 }
+.hexagon_box{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
 .hexagon {
     display: inline;
     float: left;
+    /*position: relative;*/
     height: 300px;
     width: 350px;
 }
@@ -205,13 +212,13 @@ header {
     margin: 0 0 0 35%;
 }
 #hex_second {
-    margin: 80px 0 0 -60px;
+    margin: 6% 0 0 -4%;
 }
 #hex_third {
     clear: left;
-    margin: -180px 0 0 300px;
+    margin: -13% 0 0 20%;
 }
 #hex_forth{
     clear: left;
-    margin: -220px 0 0 590px;
+    margin: -15% 0 0 40%;
 }
