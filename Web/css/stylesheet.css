@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+h1, h2, p{
+    font-family: 'Libre Baskerville', serif;
+}
 html, body {
     padding: 0;
     margin: 0;
@@ -50,18 +53,17 @@ header {
 #name {
     margin: 2% auto auto auto;
     text-align: center;
-    font-size: 10em;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 8em;
 }
 
 #slogan {
     margin: 0px auto auto auto;
     text-align: center;
-    font-size: 6em;
+    font-size: 4em;
 }
 
 #more {
-    font-size: 20px;
+    font-size: 1.5em;
     color: white;
     overflow: hidden;
     text-align: center;
@@ -106,7 +108,7 @@ header {
     text-align: center;
 }
 .section_title{
-    font-size: 9em;
+    font-size: 3em;
 }
 .section_subtitle{
     font-size: 4em;

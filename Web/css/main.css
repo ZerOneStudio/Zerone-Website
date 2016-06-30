@@ -3,9 +3,7 @@ html,body{
     margin:0;
     height:100%;
 }
-h1, h2, p{
-    font-family: 'Libre Baskerville', serif;
-}
+
 .position_center{
     position: relative;
     margin: 0 auto 0 auto;
