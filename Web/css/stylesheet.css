@@ -35,6 +35,20 @@ body{
 .navbar-default .navbar-nav>li>a:hover{
 	color: inherit;
 }
+.navbar-default{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.navbar-collapse {
+    -webkit-box-shadow: none;
+     box-shadow: none;
+}
 /* nav end */
 
 .logo{
