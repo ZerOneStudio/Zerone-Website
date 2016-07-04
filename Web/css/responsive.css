@@ -1,141 +1,100 @@
 @media screen and (min-width: 1200px) {
-    .navbar {
-        margin-bottom: 0px;
-        border: none;
-    }
-
-    .logo {
-        margin: 5% auto 10% auto;
-    }
-
     #name {
-        margin: 0;
         font-size: 8em;
     }
 
     #slogan {
-        margin: 2% auto 15% auto;
+        margin-bottom: 35%;
         font-size: 3em;
     }
 
     #more {
         font-size: 1.5em;
-        font-style: italic;
-        margin: 25% auto 10% auto;
+        margin-bottom: 10%;
         width: 100%;
     }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1199px) {
-    .navbar {
-        margin-bottom: 0px;
-        border: none;
-    }
-
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .logo {
-        margin: 2% auto 10% auto;
+        margin-bottom: 15%;
     }
 
     #name {
-        margin: 0;
-        font-size: 5em;
+        font-size: 6em;
     }
 
     #slogan {
-        margin: 2% auto 10% auto;
-        font-size: 3em;
+        margin-bottom: 30%;
+        font-size: 2.5em;
     }
 
     #more {
         font-size: 1.5em;
-        font-style: italic;
-        margin: 30% auto 10% auto;
+        margin-bottom: 10%;
         width: 100%;
     }
-
 }
 
-@media screen and (min-width: 768px) and (max-width: 959px) {
-    .navbar {
-        margin-bottom: 0px;
-        border: none;
-    }
-
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .logo {
         margin: 0;
     }
 
     #name {
-        margin: 0;
-        font-size: 3em;
+        font-size: 8em;
     }
 
     #slogan {
-        margin: 0;
-        font-size: 1.5em;
+        margin-bottom: 20%;
+        font-size: 3em;
     }
 
     #more {
-        font-size: 1em;
-        font-style: italic;
-        margin: 0;
+        font-size: 1.5em;
+        margin-bottom: 5%;
         width: 100%;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .navbar {
-        margin-bottom: 0px;
-        border: none;
-    }
-
     .logo {
         margin: 0;
     }
 
     #name {
-        margin: 0;
-        font-size: 3em;
+        font-size: 5em;
     }
 
     #slogan {
-        margin: 0;
-        font-size: 1.5em;
+        margin-bottom: 15%;
+        font-size: 2em;
     }
 
     #more {
         font-size: 1em;
-        font-style: italic;
-        margin: 0;
+        margin-bottom: 5%;
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 479px) {
-    .navbar {
-        margin-bottom: 0px;
-        border: none;
-    }
-
     .logo {
         margin: 0;
     }
 
     #name {
-        margin: 0;
         font-size: 3em;
     }
 
     #slogan {
-        margin: 0;
+        margin-bottom: 7.5%;
         font-size: 1.5em;
     }
 
     #more {
-        font-size: 1em;
-        font-style: italic;
-        margin: 0;
+        font-size: 0.5em;
+        margin-bottom: 2.5%;
         width: 100%;
     }
-
 }

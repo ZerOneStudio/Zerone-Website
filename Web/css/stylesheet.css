@@ -8,7 +8,7 @@ body {
 
 /* header */
 .slide {
-    background: url("../img/Zero_to_One.jpg") no-repeat center;
+    background: url("../img/Zero_to_One.jpg") no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,6 +23,11 @@ body {
 .navbar-default {
     background: transparent;
     border-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
 }
 
 .navbar-center {
@@ -65,18 +70,16 @@ body {
 /* nav end */
 
 .logo {
-    margin: 5% auto;
+    /*margin: 5% auto;*/
     text-align: center;
 }
 
 #name {
-    margin: 2% auto auto auto;
     text-align: center;
     font-size: 7.5em;
 }
 
 #slogan {
-    margin: 0px auto auto auto;
     text-align: center;
     font-size: 3em;
 }
@@ -86,7 +89,6 @@ body {
     font-size: 1.5em;
     font-style: italic;
     text-align: center;
-    margin: 20% auto auto auto;
     width: 80%;
 }
 
