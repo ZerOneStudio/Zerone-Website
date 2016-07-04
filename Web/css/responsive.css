@@ -1,17 +1,110 @@
 @media screen and (min-width: 1200px) {
+    .navbar {
+        margin-bottom: 0px;
+        border: none;
+    }
+    .logo {
+        margin: 5% auto 10% auto;
+    }
 
+    #name {
+        margin: 0;
+        font-size: 8em;
+    }
+
+    #slogan {
+        margin: 2% auto 15% auto;
+        font-size: 3em;
+    }
+
+    #more {
+        font-size: 1.5em;
+        font-style: italic;
+        margin: 25% auto 10% auto;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px) {
+    .navbar {
+        margin-bottom: 0px;
+        border: none;
+    }
+    .logo {
+        margin: 2% auto 10% auto;
+    }
+
+    #name {
+        margin: 0;
+        font-size: 5em;
+    }
+
+    #slogan {
+        margin: 2% auto 10% auto;
+        font-size: 3em;
+    }
+
+    #more {
+        font-size: 1.5em;
+        font-style: italic;
+        margin: 30% auto 10% auto;
+        width: 100%;
+    }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
+    .navbar {
+        margin-bottom: 0px;
+        border: none;
+    }
+    .logo {
+        margin: 0;
+    }
 
+    #name {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    #slogan {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    #more {
+        font-size: 1em;
+        font-style: italic;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar {
+        margin-bottom: 0px;
+        border: none;
+    }
+    .logo {
+        margin: 0;
+    }
 
+    #name {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    #slogan {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    #more {
+        font-size: 1em;
+        font-style: italic;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -21,28 +114,23 @@
     }
     .logo {
         margin: 0;
-        text-align: center;
     }
 
     #name {
         margin: 0;
-        text-align: center;
-        font-size: 5em;
+        font-size: 3em;
     }
 
     #slogan {
         margin: 0;
-        text-align: center;
         font-size: 1.5em;
     }
 
     #more {
-        font-size: 1.5em;
+        font-size: 1em;
         font-style: italic;
-        text-align: center;
         margin: 0;
         width: 100%;
-        /*padding: 10px;*/
     }
 
 }

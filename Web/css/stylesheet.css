@@ -8,10 +8,13 @@ body{
 
 /* header */
 .slide{
-    background: url("../img/Zero_to_One.jpg") no-repeat;
+    background: url("../img/Zero_to_One.jpg") no-repeat center;
     background-size: cover;
-    width: 100%;
-    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*width: 100%;*/
+    /*height: auto;*/
     font-family: 'Libre Baskerville', serif;
     color: white;
 }
@@ -75,7 +78,6 @@ body{
 	text-align: center;
 	margin: 20% auto auto auto;
 	width: 80%;
-	padding: 10px;
 }
 .button{
 	border: 1px solid white;
