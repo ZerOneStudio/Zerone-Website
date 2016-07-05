@@ -128,7 +128,7 @@
 
 <div id="work" class="section_block">
     <div class="row block img_container">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
             <img class="section_icon" src="img/tool.svg" width="35%" height="auto"/>
         </div>
     </div>
@@ -174,8 +174,8 @@
 </div>
 
 <div id="team" class="section_block">
-    <div class="row block img_container">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="row img_container">
+        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
             <img class="section_icon" src="img/about-us.svg" width="35%" height="auto"/>
         </div>
     </div>
@@ -190,40 +190,45 @@
 </div>
 
 <div id="contact" class="section_block">
-    <div class="row block img_container">
-        <div class="col-md-6 col-md-offset-3">
-            <img class="section_icon" src="img/mail.svg" width="85%" height="auto"/>
+    <div class="row img_container">
+        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+            <img class="section_icon" src="img/mail.svg" width="35%" height="auto"/>
         </div>
     </div>
     <div class="row content_row">
-        <div class="title_container sliding-middle-out col-md-10 col-md-offset-1">
+        <div class="title_container sliding-middle-out col-md-6 col-md-offset-3">
             <h1 class="left_bracket">[</h1>
             <h1 class="section_title">&nbsp;Contact&nbsp;</h1>
             <h1 class="right_bracket"> ]</h1>
         </div>
     </div>
-    <h2 class="section_subtitle">[ Let's Work Together! ]</h2>
+    <h2 class="section_subtitle col-md-8 col-md-offset-2">[ Let's Work Together! ]</h2>
 
-    <ul>
-        <li><img src="img/Contact/Telephone_Icon.svg"/><span>03 9012 4567</span></li>
-        <li><img src="img/Contact/Location_Icon.svg"/><span>376 Carawatha Rd, Carnegie VIC 3063</span></li>
-        <li><img src="img/Contact/Mail_Icon.svg"/><span>info@zerone.com.au</span></li>
-    </ul>
+    <div class="col-md-6 col-md-offset-3">
+        <ul>
+            <li><img src="img/Contact/Telephone_Icon.svg"/><span>03 9012 4567</span></li>
+            <li><img src="img/Contact/Location_Icon.svg"/><span>376 Carawatha Rd, Carnegie VIC 3063</span></li>
+            <li><img src="img/Contact/Mail_Icon.svg"/><span>info@zerone.com.au</span></li>
+        </ul>
 
-    <form method="post" action="">
-        <input type="text" id="contact_name" name="name" value="" placeholder="Name"/>
-        <input type="email" id="email" name="email" value="" placeholder="Email"/>
-        <textarea id="message" name="message" placeholder="Message"></textarea>
-        <input type="submit" value="Send" id="submit"/>
-    </form>
-
+        <form method="post" action="">
+            <input type="text" class="form-control id=" contact_name" name="name" value="" placeholder="Name"/>
+            <!--<input type="email" id="email" name="email" value="" placeholder="Email"/>-->
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <textarea id="message" class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+            <input type="submit" value="Send" id="submit"/>
+        </form>
+    </div>
 </div>
-<footer>
+
+
+<footer class="footer">
     <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
     <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
     <p>Copyright&copy;Powered by <a href="#">Zerone</a> 2016</p>
 </footer>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.2.min.js"></script>

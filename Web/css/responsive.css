@@ -194,6 +194,10 @@
     #service .content_row {
         padding-bottom: 30%;
     }
+    .form-control {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -250,4 +254,12 @@
         -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
         clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
     }
+    .section_icon{
+        width: 60%;
+    }
+    .form-control {
+         width: 100%;
+        margin-top: 10px;
+    }
+
 }
