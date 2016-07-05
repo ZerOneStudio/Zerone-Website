@@ -182,23 +182,19 @@ p > span {
 
 /* service */
 #service {
-    background: url("../img/WorkPage for Web.jpg");
+    background: url("../img/WorkPage for Web.jpg") center;
     background-size: cover;
-    margin-top: -27%;
-    margin-bottom: -10%;
+}
+#about .content_row {
+    padding-bottom: 12%;
+}
+#service .content_row {
+    padding-bottom: 20%;
 }
 
 .promo {
     -webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
     clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
-}
-
-#service .block {
-    padding-top: 15%;
-}
-
-#about .content_row, #service .content_row {
-    padding-bottom: 15%;
 }
 
 /* End service */

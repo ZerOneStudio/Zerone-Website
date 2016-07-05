@@ -38,6 +38,14 @@
     p > span {
         font-size: 3em;
     }
+
+    #service {
+        margin-top: -27%;
+        margin-bottom: -10%;
+    }
+    #service .block {
+        padding-top: 15%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -79,6 +87,14 @@
     p > span {
         font-size: 2em;
     }
+    #service {
+        margin-top: -27%;
+        margin-bottom: -13%;
+    }
+    #service .block {
+        padding-top: 18%;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -119,6 +135,13 @@
 
     p > span {
         font-size: 1.5em;
+    }
+    #service {
+        margin-top: -27%;
+        margin-bottom: -13%;
+    }
+    #service .block {
+        padding-top: 20%;
     }
 }
 
@@ -161,6 +184,16 @@
     p > span {
         font-size: 1.2em;
     }
+    #service {
+        margin-top: -27%;
+        margin-bottom: -15%;
+    }
+    #service .block {
+        padding-top: 26%;
+    }
+    #service .content_row {
+        padding-bottom: 30%;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -184,7 +217,7 @@
     }
 
     .section_subtitle {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .content_row {
@@ -201,5 +234,20 @@
 
     p > span {
         font-size: 1em;
+    }
+
+    #service {
+        margin-top: -30%;
+        margin-bottom: -20%;
+    }
+    #service .block {
+        padding-top: 35%;
+    }
+    #service .content_row {
+        padding-bottom: 35%;
+    }
+    .promo {
+        -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
     }
 }
