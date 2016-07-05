@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab251fa-c027-4ede-b560-46de78c8c680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/css/responsive.css" afterPath="$PROJECT_DIR$/Web/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/css/stylesheet.css" afterPath="$PROJECT_DIR$/Web/css/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/index.html" afterPath="$PROJECT_DIR$/Web/index.html" />
     </list>
     <ignored path="Zerone-Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="217" column="81" selection-start-line="217" selection-start-column="81" selection-end-line="217" selection-end-column="81" />
+            <state relative-caret-position="148">
+              <caret line="204" column="87" selection-start-line="204" selection-start-column="87" selection-end-line="204" selection-end-column="87" />
               <folding>
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -42,18 +39,18 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="343" column="32" selection-start-line="343" selection-start-column="32" selection-end-line="343" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="332" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="234" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="278" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -87,9 +84,9 @@
         <option value="$PROJECT_DIR$/Web/css/hover.css" />
         <option value="$PROJECT_DIR$/Web/css/hexagons.css" />
         <option value="$PROJECT_DIR$/Web/css/animate.css" />
+        <option value="$PROJECT_DIR$/Web/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/Web/css/responsive.css" />
         <option value="$PROJECT_DIR$/Web/index.html" />
-        <option value="$PROJECT_DIR$/Web/css/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -299,7 +296,7 @@
       <workItem from="1467634514056" duration="2899000" />
       <workItem from="1467642892209" duration="1202000" />
       <workItem from="1467679279621" duration="9925000" />
-      <workItem from="1467712471981" duration="3753000" />
+      <workItem from="1467712471981" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="delete some css files">
       <created>1467337195584</created>
@@ -319,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69587000" />
+    <option name="totallyTimeSpent" value="69662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -578,30 +575,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/index.html">
+    <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="217" column="81" selection-start-line="217" selection-start-column="81" selection-end-line="217" selection-end-column="81" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="234" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="278" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="343" column="32" selection-start-line="343" selection-start-column="32" selection-end-line="343" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="332" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
+    <entry file="file://$PROJECT_DIR$/Web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="204" column="87" selection-start-line="204" selection-start-column="87" selection-end-line="204" selection-end-column="87" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

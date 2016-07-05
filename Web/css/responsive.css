@@ -43,6 +43,7 @@
         margin-top: -27%;
         margin-bottom: -10%;
     }
+
     #service .block {
         padding-top: 15%;
     }
@@ -87,10 +88,12 @@
     p > span {
         font-size: 2em;
     }
+
     #service {
         margin-top: -27%;
         margin-bottom: -13%;
     }
+
     #service .block {
         padding-top: 18%;
     }
@@ -136,10 +139,12 @@
     p > span {
         font-size: 1.5em;
     }
+
     #service {
         margin-top: -27%;
         margin-bottom: -13%;
     }
+
     #service .block {
         padding-top: 20%;
     }
@@ -184,16 +189,20 @@
     p > span {
         font-size: 1.2em;
     }
+
     #service {
         margin-top: -27%;
         margin-bottom: -15%;
     }
+
     #service .block {
         padding-top: 26%;
     }
+
     #service .content_row {
         padding-bottom: 30%;
     }
+
     .form-control {
         width: 100%;
         margin-top: 10px;
@@ -244,21 +253,26 @@
         margin-top: -30%;
         margin-bottom: -20%;
     }
+
     #service .block {
         padding-top: 35%;
     }
+
     #service .content_row {
         padding-bottom: 35%;
     }
+
     .promo {
         -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
         clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
     }
-    .section_icon{
+
+    .section_icon {
         width: 60%;
     }
+
     .form-control {
-         width: 100%;
+        width: 100%;
         margin-top: 10px;
     }
 
