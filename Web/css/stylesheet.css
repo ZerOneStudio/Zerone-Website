@@ -151,28 +151,31 @@ body {
 
 .section_subtitle {
     font-size: 2.5em;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .content_row {
-    width: 50%;
+    width: 70%;
     margin: 2% auto;
     text-align: center;
 }
 
 .content_row h1 {
     font-size: 4.5em;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
     display: inline-block;
     vertical-align: middle;
 }
 
 .content_row p {
     text-align: center;
-    margin: 5% auto auto auto;
+    margin: 5% auto;
     font-size: 1em;
     width: 100%;
+}
+
+p > span {
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /* End all section */

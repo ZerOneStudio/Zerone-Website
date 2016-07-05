@@ -13,13 +13,34 @@
         margin-bottom: 10%;
         width: 100%;
     }
+
+    .left_bracket, .right_bracket {
+        font-size: 4.5em;
+    }
+
+    .section_subtitle {
+        font-size: 3em;
+    }
+
+    .content_row {
+        margin: 2% auto;
+    }
+
+    .content_row h1 {
+        font-size: 5em;
+        padding-bottom: 5%;
+    }
+
+    .content_row p {
+        font-size: 1.5em;
+    }
+
+    p > span {
+        font-size: 3em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-        margin-bottom: 15%;
-    }
-
     #name {
         font-size: 6em;
     }
@@ -34,13 +55,33 @@
         margin-bottom: 10%;
         width: 100%;
     }
+
+    .left_bracket, .right_bracket {
+        font-size: 3.5em;
+    }
+
+    .section_subtitle {
+        font-size: 3em;
+    }
+
+    .content_row {
+        margin: 2% auto;
+    }
+
+    .content_row h1 {
+        font-size: 4em;
+    }
+
+    .content_row p {
+        font-size: 1.2em;
+    }
+
+    p > span {
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .logo {
-        margin: 0;
-    }
-
     #name {
         font-size: 8em;
     }
@@ -55,13 +96,33 @@
         margin-bottom: 5%;
         width: 100%;
     }
+
+    .left_bracket, .right_bracket {
+        font-size: 3em;
+    }
+
+    .section_subtitle {
+        font-size: 2em;
+    }
+
+    .content_row {
+        margin: 2% auto;
+    }
+
+    .content_row h1 {
+        font-size: 3em;
+    }
+
+    .content_row p {
+        font-size: 1em;
+    }
+
+    p > span {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .logo {
-        margin: 0;
-    }
-
     #name {
         font-size: 5em;
     }
@@ -76,13 +137,33 @@
         margin-bottom: 5%;
         width: 100%;
     }
+
+    .left_bracket, .right_bracket {
+        font-size: 2.5em;
+    }
+
+    .section_subtitle {
+        font-size: 1.5em;
+    }
+
+    .content_row {
+        margin: 2% auto;
+    }
+
+    .content_row h1 {
+        font-size: 2.5em;
+    }
+
+    .content_row p {
+        font-size: 1em;
+    }
+
+    p > span {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 479px) {
-    .logo {
-        margin: 0;
-    }
-
     #name {
         font-size: 3em;
     }
@@ -96,5 +177,29 @@
         font-size: 0.5em;
         margin-bottom: 2.5%;
         width: 100%;
+    }
+
+    .left_bracket, .right_bracket {
+        font-size: 2em;
+    }
+
+    .section_subtitle {
+        font-size: 1.5em;
+    }
+
+    .content_row {
+        margin: 2% auto;
+    }
+
+    .content_row h1 {
+        font-size: 2em;
+    }
+
+    .content_row p {
+        font-size: 0.8em;
+    }
+
+    p > span {
+        font-size: 1em;
     }
 }
