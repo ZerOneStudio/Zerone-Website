@@ -10,8 +10,8 @@
 
     #more {
         font-size: 1.5em;
-        margin-bottom: 10%;
-        width: 100%;
+        width: 80%;
+        margin: 10% auto;
     }
 
     .left_bracket, .right_bracket {
@@ -61,7 +61,7 @@
 
     #more {
         font-size: 1.5em;
-        margin-bottom: 10%;
+        margin: 10% auto;
         width: 100%;
     }
 
@@ -112,8 +112,9 @@
 
     #more {
         font-size: 1.5em;
-        margin-bottom: 5%;
-        width: 100%;
+        /*margin-bottom: 5%;*/
+        width: 60%;
+        margin: 5% auto;
     }
 
     .left_bracket, .right_bracket {
@@ -162,8 +163,8 @@
 
     #more {
         font-size: 1em;
-        margin-bottom: 5%;
-        width: 100%;
+        margin: 5% auto;
+        width: 60%;
     }
 
     .left_bracket, .right_bracket {
@@ -221,8 +222,8 @@
 
     #more {
         font-size: 0.5em;
-        margin-bottom: 2.5%;
-        width: 100%;
+        margin: 2.5% auto;
+        width: 80%;
     }
 
     .left_bracket, .right_bracket {

@@ -22,11 +22,6 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
     <!--	<script type="text/javascript" src="jQuery-CSS3-Animate-It/js/css3-animate-it.js"></script>
     -->
 </head>
@@ -48,7 +43,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-center" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav nav-center">
-                    <li><a class="hvr-underline-from-center" href="#about">About <span class="sr-only">(current)</span></a>
+                    <li><a class="hvr-underline-from-center" href="#about">About <span
+                            class="sr-only">(current)</span></a>
                     </li>
                     <li><a class="hvr-underline-from-center" href="#service_icon">Service</a></li>
                     <li><a class="hvr-underline-from-center" href="#work">Work</a></li>
@@ -91,9 +87,11 @@
             with a multidisciplinary team of professions<br>
             in Graphic Design, Communication and Information Technology.</p>
         <h2 class="section_subtitle col-md-8 col-md-offset-2">[ What we can do. ]</h2>
-        <p class="col-md-6 col-md-offset-3">Design what you want, we like to keep it simple. Our goals are<br/>to focus
+        <p class="col-md-6 col-md-offset-3">Design what you want, we like to keep it simple. Our goals are<br/>to
+            focus
             on typography, content and conveying the message that<br/>you want to send.<br/><br/>
-            Develop what you need, we are designers and developers so we<br/>know how to create your website to run
+            Develop what you need, we are designers and developers so we<br/>know how to create your website to
+            run
             across devices using the<br/>latest technologies available.
         </p>
     </div>
@@ -115,7 +113,8 @@
             Providing exceptional end-to-end communication services to our<br/>clients.
         </p>
         <h2 class="section_subtitle col-md-10 col-md-offset-1">[ We create great stuff. ]</h2>
-        <p class="col-md-6 col-md-offset-3">From branding and design to digital strategy and web development,<br>
+        <p class="col-md-6 col-md-offset-3">From branding and design to digital strategy and web
+            development,<br>
             our work is expertly crafted to deliver sophisticated solutions that<br/>
             contributes to our clients' business goals.
             <br/><br/>
@@ -212,16 +211,17 @@
         </ul>
 
         <form method="post" action="">
-            <input type="text" class="form-control id=" contact_name" name="name" value="" placeholder="Name"/>
+            <input type="text" class="form-control" id="contact_name" name="name" value="" placeholder="Name"/>
             <!--<input type="email" id="email" name="email" value="" placeholder="Email"/>-->
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-            <textarea id="message" class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+                    <textarea id="message" class="form-control" name="message" placeholder="Message"
+                              rows="3"></textarea>
             <input type="submit" value="Send" id="submit"/>
         </form>
     </div>
 </div>
 
-
+</div>
 <footer class="footer">
     <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
@@ -235,5 +235,32 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
+
+<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script>
+    jQuery(document).ready(function($){
+//        $('#about').click(function(){
+//            $('html,body').animate({scrollTop: '0px'}, 800);
+//        });
+        $('#about').click(function(){
+            $('html,body').animate({scrollTop:$('#about').offset().top}, 800);
+        });
+        $('#service').click(function(){
+            $('html,body').animate({scrollTop:$('#service').offset().top}, 800);
+        });        $('#work').click(function(){
+            $('html,body').animate({scrollTop:$('#work').offset().top}, 800);
+        }); $('#team').click(function(){
+            $('html,body').animate({scrollTop:$('#team').offset().top}, 800);
+        }); $('#contact').click(function(){
+            $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
+        });
+    });
+</script>
+
 </body>
 </html>

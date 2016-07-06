@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
     $("#more").on('mouseenter' ,function(){
 		//console.log('Hello world');
 		$("#more").removeClass("line_on_both_sides").addClass('button');
@@ -40,3 +40,5 @@ $(document).ready(function() {
     
     });
 });
+
+

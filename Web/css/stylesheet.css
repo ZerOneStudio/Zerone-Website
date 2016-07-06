@@ -94,6 +94,7 @@ body {
 
 .button {
     border: 1px solid white;
+    width: 80%;
 }
 
 .line_on_both_sides {
