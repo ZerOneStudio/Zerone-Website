@@ -247,18 +247,30 @@
 //        $('#about').click(function(){
 //            $('html,body').animate({scrollTop: '0px'}, 800);
 //        });
-        $('#about').click(function(){
-            $('html,body').animate({scrollTop:$('#about').offset().top}, 800);
-        });
-        $('#service').click(function(){
-            $('html,body').animate({scrollTop:$('#service').offset().top}, 800);
-        });        $('#work').click(function(){
-            $('html,body').animate({scrollTop:$('#work').offset().top}, 800);
-        }); $('#team').click(function(){
-            $('html,body').animate({scrollTop:$('#team').offset().top}, 800);
-        }); $('#contact').click(function(){
-            $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
-        });
+		$(".nav li a").click(function(){
+			var section = $(this).attr("href");
+	        $('html,body').animate({scrollTop:$(section).offset().top}, 800);
+		});
+		$("#more").click(function(){
+			//var section = $(this).attr("href");
+	        $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
+		});
+
+        //$('#about').click(function(){
+//            $('html,body').animate({scrollTop:$('#about').offset().top}, 800);
+//        });
+//        $('#service').click(function(){
+//            $('html,body').animate({scrollTop:$('#service').offset().top}, 800);
+//        });        
+//		$('#work').click(function(){
+//            $('html,body').animate({scrollTop:$('#work').offset().top}, 800);
+//        }); 
+//		$('#team').click(function(){
+//            $('html,body').animate({scrollTop:$('#team').offset().top}, 800);
+//        }); 
+//		$('#contact').click(function(){
+//            $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
+//        });
     });
 </script>
 
