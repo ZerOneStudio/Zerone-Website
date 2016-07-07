@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="css/clean.css" rel="stylesheet" type="text/css">
     <link href="../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="animate.css-master/animate.css" rel="stylesheet">
+    <link href="Hover-master/css/hover.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/hexagons.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
@@ -62,7 +62,7 @@
         <div class="col-md-4 col-md-offset-4 col-xs-12 ">
             <h1 id="name">Zerone</h1>
             <h2 id="slogan">None to Done</h2>
-            <p id="more" class="line_on_both_sides">
+            <p id="more" class="line_on_both_sides hvr-border-fade">
                 <a href="#contact">Click to see more</a>
             </p>
         </div>
@@ -216,7 +216,7 @@
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                     <textarea id="message" class="form-control" name="message" placeholder="Message"
                               rows="3"></textarea>
-            <input type="submit" value="Send" id="submit"/>
+            <button class="hvr-shutter-out-horizontal" id="submit">Send</button>
         </form>
     </div>
 </div>
@@ -244,33 +244,13 @@
 
 <script>
     jQuery(document).ready(function($){
-//        $('#about').click(function(){
-//            $('html,body').animate({scrollTop: '0px'}, 800);
-//        });
 		$(".nav li a").click(function(){
 			var section = $(this).attr("href");
 	        $('html,body').animate({scrollTop:$(section).offset().top}, 800);
 		});
 		$("#more").click(function(){
-			//var section = $(this).attr("href");
 	        $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
 		});
-
-        //$('#about').click(function(){
-//            $('html,body').animate({scrollTop:$('#about').offset().top}, 800);
-//        });
-//        $('#service').click(function(){
-//            $('html,body').animate({scrollTop:$('#service').offset().top}, 800);
-//        });        
-//		$('#work').click(function(){
-//            $('html,body').animate({scrollTop:$('#work').offset().top}, 800);
-//        }); 
-//		$('#team').click(function(){
-//            $('html,body').animate({scrollTop:$('#team').offset().top}, 800);
-//        }); 
-//		$('#contact').click(function(){
-//            $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
-//        });
     });
 </script>
 

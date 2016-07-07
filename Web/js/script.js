@@ -1,13 +1,11 @@
 $(document).ready(function() {
 
     $("#more").on('mouseenter' ,function(){
-		//console.log('Hello world');
-		$("#more").removeClass("line_on_both_sides").addClass('button');
+		$("#more").removeClass("line_on_both_sides");
 	});
 	
 	$("#more").on('mouseleave' ,function(){
-		//console.log('Hello world');
-		$("#more").addClass("line_on_both_sides").removeClass('button');
+		$("#more").addClass("line_on_both_sides");
 	});
 	
 		
