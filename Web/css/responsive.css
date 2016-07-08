@@ -113,7 +113,7 @@
     #more {
         font-size: 1.5em;
         /*margin-bottom: 5%;*/
-        width: 60%;
+        width: 40%;
         margin: 5% auto;
     }
 
@@ -164,7 +164,7 @@
     #more {
         font-size: 1em;
         margin: 5% auto;
-        width: 60%;
+        width: 50%;
     }
 
     .left_bracket, .right_bracket {
@@ -223,7 +223,7 @@
     #more {
         font-size: 0.5em;
         margin: 2.5% auto;
-        width: 80%;
+        width: 65%;
     }
 
     .left_bracket, .right_bracket {
