@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="../font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="animate.css-master/animate.css" rel="stylesheet">
     <link href="Hover-master/css/hover.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/hexagons.css">
@@ -210,13 +209,13 @@
             <li><img src="img/Contact/Mail_Icon.svg"/><span>info@zerone.com.au</span></li>
         </ul>
 
-        <form method="post" action="">
+        <form method="post" action="SendMail.php">
             <input type="text" class="form-control" id="contact_name" name="name" value="" placeholder="Name"/>
             <!--<input type="email" id="email" name="email" value="" placeholder="Email"/>-->
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email">
                     <textarea id="message" class="form-control" name="message" placeholder="Message"
                               rows="3"></textarea>
-            <button class="hvr-shutter-out-horizontal" id="submit">Send</button>
+            <button type="submit" class="hvr-shutter-out-horizontal" id="submit">Send</button>
         </form>
     </div>
 </div>
@@ -241,6 +240,7 @@
 <![endif]-->
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script src="https://use.fontawesome.com/220f5296d6.js"></script>
 
 <script>
     jQuery(document).ready(function($){
