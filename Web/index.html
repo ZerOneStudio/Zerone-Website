@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="animate.css-master/animate.css" rel="stylesheet">
-    <link href="Hover-master/css/hover.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/hexagons.css">
+<!--    <link href="Hover-master/css/hover.css" rel="stylesheet">
+-->    <link rel="stylesheet" type="text/css" href="css/hexagons.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -148,7 +148,7 @@
         </li>
         <li>
             <div>
-                <img src="img/Work/Web_New.jpg" alt=""/>
+                <img src="img/Work/Web_New.jpg" style="width: 100%; height:auto;" alt=""/>
                 <h1>This is a title</h1>
                 <p>Some sample text about the article this hexagon leads to</p>
             </div>
@@ -220,7 +220,6 @@
     </div>
 </div>
 
-</div>
 <footer class="footer">
     <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
     <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
@@ -241,18 +240,6 @@
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script src="https://use.fontawesome.com/220f5296d6.js"></script>
-
-<script>
-    jQuery(document).ready(function($){
-		$(".nav li a").click(function(){
-			var section = $(this).attr("href");
-	        $('html,body').animate({scrollTop:$(section).offset().top}, 800);
-		});
-		$("#more").click(function(){
-	        $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
-		});
-    });
-</script>
 
 </body>
 </html>

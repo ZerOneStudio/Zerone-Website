@@ -3,9 +3,17 @@ $(document).ready(function() {
     $("#more").on('mouseenter' ,function(){
 		$("#more").removeClass("line_on_both_sides");
 	});
-	
 	$("#more").on('mouseleave' ,function(){
 		$("#more").addClass("line_on_both_sides");
+	});
+	
+	/* Smooth Scroll Navigation */
+	$(".nav li a").click(function(){
+			var section = $(this).attr("href");
+	        $('html,body').animate({scrollTop:$(section).offset().top}, 800);
+		});
+		$("#more").click(function(){
+	        $('html,body').animate({scrollTop:$('#contact').offset().top}, 800);
 	});
 	
 		
@@ -25,17 +33,7 @@ $(document).ready(function() {
 
             }
         }); 
-		
-		// $('').each( function(){
-//            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-//            var bottom_of_window = $(window).scrollTop() + $(window).height();
-//                       
-//            /* If the object is completely visible in the window, fade it it */
-//            if( bottom_of_window > bottom_of_object ){
-//				$(this).addClass("animated fadeInDown").removeClass("hidden");
-//            }
-//        }); 
-    
+	
     });
 });
 
