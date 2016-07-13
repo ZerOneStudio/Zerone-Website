@@ -5,7 +5,9 @@ body {
     padding: 0;
     height: 100%;
 }
-
+.row{
+    margin: 0;
+}
 /* header */
 .slide {
     background: url("../img/Zero_to_One.jpg") no-repeat center center;

@@ -16,7 +16,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -29,9 +28,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1112">
-              <caret line="215" column="100" selection-start-line="215" selection-start-column="100" selection-end-line="215" selection-end-column="100" />
-              <folding />
+            <state relative-caret-position="4066">
+              <caret line="214" column="100" selection-start-line="214" selection-start-column="100" selection-end-line="214" selection-end-column="100" />
+              <folding>
+                <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +53,7 @@
             <state relative-caret-position="0">
               <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding>
-                <marker date="1467981193116" expanded="true" signature="74:78" ph="{...}" />
-                <marker date="1467981193116" expanded="true" signature="214:219" ph="{...}" />
+                <marker date="1468449951836" expanded="true" signature="74:78" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,18 +62,28 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1823">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hexagons.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/css/hexagons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="215" column="5" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+            <state relative-caret-position="366">
+              <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -105,12 +115,12 @@
         <option value="$PROJECT_DIR$/Web/css/responsive600.css" />
         <option value="$PROJECT_DIR$/Web/demo.html" />
         <option value="$PROJECT_DIR$/Web/css/hover.css" />
-        <option value="$PROJECT_DIR$/Web/css/hexagons.css" />
         <option value="$PROJECT_DIR$/Web/css/animate.css" />
         <option value="$PROJECT_DIR$/Web/js/script.js" />
         <option value="$PROJECT_DIR$/Web/index.html" />
         <option value="$PROJECT_DIR$/Web/SendMail.php" />
         <option value="$PROJECT_DIR$/Web/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Web/css/hexagons.css" />
         <option value="$PROJECT_DIR$/Web/css/responsive.css" />
       </list>
     </option>
@@ -123,10 +133,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,17 +163,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zerone-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,6 +234,8 @@
       <workItem from="1467778443212" duration="6408000" />
       <workItem from="1467951457405" duration="2240000" />
       <workItem from="1467981262110" duration="794000" />
+      <workItem from="1468450290808" duration="368000" />
+      <workItem from="1468451177873" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="delete some css files">
       <created>1467337195584</created>
@@ -251,13 +255,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79740000" />
+    <option name="totallyTimeSpent" value="81200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38308978" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -301,7 +305,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -329,7 +335,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -357,7 +365,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +395,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -401,13 +413,6 @@
     <entry file="file://$PROJECT_DIR$/Zerone/src/index.html" />
     <entry file="file://$PROJECT_DIR$/Web/css/main.css" />
     <entry file="file://$PROJECT_DIR$/Web/css/hover.css" />
-    <entry file="file://$PROJECT_DIR$/Web/css/hexagons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -426,8 +431,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding>
-            <marker date="1467981193116" expanded="true" signature="74:78" ph="{...}" />
-            <marker date="1467981193116" expanded="true" signature="214:219" ph="{...}" />
+            <marker date="1468449951836" expanded="true" signature="74:78" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -443,24 +447,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1112">
-          <caret line="215" column="100" selection-start-line="215" selection-start-column="100" selection-end-line="215" selection-end-column="100" />
-          <folding />
+        <state relative-caret-position="4066">
+          <caret line="214" column="100" selection-start-line="214" selection-start-column="100" selection-end-line="214" selection-end-column="100" />
+          <folding>
+            <marker date="1468449951830" expanded="true" signature="11647:11655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1823">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="215" column="5" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+        <state relative-caret-position="366">
+          <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/css/hexagons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
           <folding />
         </state>
       </provider>
