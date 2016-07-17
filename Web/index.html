@@ -23,8 +23,24 @@
     <!--[if lt IE 9]>
     <!--	<script type="text/javascript" src="jQuery-CSS3-Animate-It/js/css3-animate-it.js"></script>
     -->
+    <style>
+        .promo{
+            -moz-clip-path: url("#clip-shape");
+            -webkit-clip-path: url("#clip-shape");
+            clip-path: url("#clip-shape")
+        }
+    </style>
 </head>
 <body>
+
+<svg width="0" height="0">
+    <defs>
+        <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+            <polygon points="0 0.27, 1 0, 1 0.73, 0 1" />
+        </clipPath>
+    </defs>
+</svg>
+
 <div class="slide">
     <nav class="navbar navbar-default transparent">
         <div class="container-fluid">
@@ -96,7 +112,7 @@
     </div>
 </div>
 
-<div id="service" class="section_block promo">
+<div id="service" class="section_block promo" clip-path="url(#clip-shape)">
     <div class="row block img_container">
         <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
             <img id="service_icon" class="section_icon" src="img/info.svg" width="35%" height="auto"/>

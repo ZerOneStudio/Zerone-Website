@@ -5,9 +5,11 @@ body {
     padding: 0;
     height: 100%;
 }
-.row{
+
+.row {
     margin: 0;
 }
+
 /* header */
 .slide {
     background: url("../img/Zero_to_One.jpg") no-repeat center center;
@@ -196,10 +198,15 @@ p > span {
 }
 
 .promo {
-    -webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
-	-moz-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
-
-    clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);
+    /*-webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    /*-moz-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    /*clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    -webkit-clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+    clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+    -moz-clip-path: polygon (0% 27%, 100% 0%, 100% 73%, 0% 100%);
+    -moz-clip-path: url("../index.html#clip-shape");
+    -webkit-clip-path: url("../index.html#clip-shape");
+    clip-path: url("../index.html#clip-shape");
 }
 
 /* End service */
@@ -330,8 +337,8 @@ footer p {
     font-size: 10px;
     margin-top: 10px;
 }
-/* End Footer */
 
+/* End Footer */
 
 /* Animations */
 /* Underline From Center When scroll */
@@ -395,69 +402,73 @@ footer p {
 
 /* Click to see more: Border fade */
 .hvr-border-fade {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px transparent, 0 0 1px rgba(0, 0, 0, 0);
-  /* Hack to improve aliasing on mobile/tablet devices */
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 4px transparent, 0 0 1px rgba(0, 0, 0, 0);
+    /* Hack to improve aliasing on mobile/tablet devices */
 }
+
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-  box-shadow: inset 0 0 0 3px white, 0 0 1px rgba(0, 0, 0, 0);
-  /* Hack to improve aliasing on mobile/tablet devices */
+    box-shadow: inset 0 0 0 3px white, 0 0 1px rgba(0, 0, 0, 0);
+    /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 /* Send Button: Shutter Out Horizontal */
 .hvr-shutter-out-horizontal {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  background: white;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: white;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
+
 .hvr-shutter-out-horizontal:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #232323;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #232323;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
+
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
     color: white;
 }
+
 .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 /* End Animations */
