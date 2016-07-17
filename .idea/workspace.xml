@@ -28,10 +28,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="619">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
               <folding>
-                <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+                <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
               </folding>
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="208" selection-end-column="46" />
+            <state relative-caret-position="274">
+              <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5662">
-              <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
+            <state relative-caret-position="2171">
+              <caret line="300" column="61" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -111,9 +111,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -214,7 +215,7 @@
       <workItem from="1467981262110" duration="794000" />
       <workItem from="1468450290808" duration="368000" />
       <workItem from="1468451177873" duration="1092000" />
-      <workItem from="1468714872002" duration="1847000" />
+      <workItem from="1468714872002" duration="4089000" />
     </task>
     <task id="LOCAL-00001" summary="delete some css files">
       <created>1467337195584</created>
@@ -234,10 +235,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83047000" />
+    <option name="totallyTimeSpent" value="85289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38308978" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -285,7 +286,7 @@
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
-            <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+            <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
           </folding>
         </state>
       </provider>
@@ -315,7 +316,7 @@
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
-            <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+            <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
           </folding>
         </state>
       </provider>
@@ -345,7 +346,7 @@
         <state relative-caret-position="2907">
           <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
-            <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+            <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
           </folding>
         </state>
       </provider>
@@ -375,7 +376,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+            <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
           </folding>
         </state>
       </provider>
@@ -416,18 +417,18 @@
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/filter.php" />
-    <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5662">
-          <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/SendMail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2171">
+          <caret line="300" column="61" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -442,18 +443,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="208" selection-end-column="46" />
+        <state relative-caret-position="274">
+          <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="619">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
           <folding>
-            <marker date="1468716722476" expanded="true" signature="12074:12082" ph="..." />
+            <marker date="1468720080714" expanded="true" signature="12852:12860" ph="..." />
           </folding>
         </state>
       </provider>

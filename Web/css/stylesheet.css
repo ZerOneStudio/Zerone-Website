@@ -204,9 +204,6 @@ p > span {
     -webkit-clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
     clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
     -moz-clip-path: polygon (0% 27%, 100% 0%, 100% 73%, 0% 100%);
-    -moz-clip-path: url("../index.html#clip-shape");
-    -webkit-clip-path: url("../index.html#clip-shape");
-    clip-path: url("../index.html#clip-shape");
 }
 
 /* End service */

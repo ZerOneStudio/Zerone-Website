@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="animate.css-master/animate.css" rel="stylesheet">
-<!--    <link href="Hover-master/css/hover.css" rel="stylesheet">
--->    <link rel="stylesheet" type="text/css" href="css/hexagons.css">
+    <!--    <link href="Hover-master/css/hover.css" rel="stylesheet">
+    -->
+    <link rel="stylesheet" type="text/css" href="css/hexagons.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -24,24 +25,44 @@
     <!--	<script type="text/javascript" src="jQuery-CSS3-Animate-It/js/css3-animate-it.js"></script>
     -->
     <style>
-        .promo{
+        .promo {
             -moz-clip-path: url("#clip-shape");
             -webkit-clip-path: url("#clip-shape");
             clip-path: url("#clip-shape")
         }
     </style>
+
+    <!--<SCRIPT LANGUAGE="javascript">-->
+        <!--if (window.navigator.userAgent.indexOf("MSIE") >= 1) {-->
+<!--//            file://如果浏览器为IE-->
+            <!--setActiveStyleSheet("default.css");-->
+        <!--} else {-->
+            <!--if (window.navigator.userAgent.indexOf("Firefox") >= 1) {-->
+<!--//                file://如果浏览器为Firefox-->
+                <!--setActiveStyleSheet("default2.css");-->
+            <!--} else {-->
+<!--//                file://如果浏览器为其他-->
+                <!--setActiveStyleSheet("newsky.css");-->
+            <!--}-->
+        <!--}-->
+        <!--function setActiveStyleSheet(title) {-->
+            <!--document.getElementsByTagName_r("link")[0].href = "style/" + title;-->
+        <!--}-->
+    <!--</SCRIPT>-->
 </head>
 <body>
 
-<svg width="0" height="0">
-    <defs>
-        <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
-            <polygon points="0 0.27, 1 0, 1 0.73, 0 1" />
-        </clipPath>
-    </defs>
-</svg>
 
 <div class="slide">
+
+    <svg width="0" height="0">
+        <defs>
+            <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+                <polygon points="0 0.27, 1 0, 1 0.73, 0 1"/>
+            </clipPath>
+
+        </defs>
+    </svg>
     <nav class="navbar navbar-default transparent">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -229,8 +250,8 @@
             <input type="text" class="form-control" id="contact_name" name="name" value="" placeholder="Name"/>
             <!--<input type="email" id="email" name="email" value="" placeholder="Email"/>-->
             <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email">
-                    <textarea id="message" class="form-control" name="message" placeholder="Message"
-                              rows="3"></textarea>
+            <textarea id="message" class="form-control" name="message" placeholder="Message"
+                      rows="3"></textarea>
             <button type="submit" class="hvr-shutter-out-horizontal" id="submit">Send</button>
         </form>
     </div>
