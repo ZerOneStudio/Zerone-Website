@@ -28,6 +28,7 @@ body {
 }
 
 .navbar {
+	margin-top: -20px;
     margin-bottom: 0px;
     border: none;
 }
@@ -68,11 +69,11 @@ body {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
 /* nav end */
 
 .logo {
     text-align: center;
+	margin-top: 5%;
 }
 
 #name {
