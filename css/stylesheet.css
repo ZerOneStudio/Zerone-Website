@@ -1,0 +1,473 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: auto;
+    padding: 0;
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+/* header */
+.slide {
+    background: url("../img/Zero_to_One.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+/* nav */
+.navbar-default {
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar {
+	margin-top: -20px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.nav-center {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: inherit;
+}
+
+.navbar-default {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-collapse {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* nav end */
+
+.logo {
+    text-align: center;
+	margin-top: 5%;
+}
+
+#name {
+    text-align: center;
+    font-size: 7.5em;
+}
+
+#slogan {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Click to see more */
+#more {
+    font-size: 1.5em;
+    font-style: italic;
+    align-content: center;
+    width: 80%;
+    line-height: 50px;
+}
+
+.button {
+    border: 1px solid white;
+    width: 80%;
+}
+
+.line_on_both_sides {
+    overflow: hidden;
+}
+
+.line_on_both_sides:before, .line_on_both_sides:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.line_on_both_sides:before {
+    right: 0.1em;
+    margin-right: 5px;
+}
+
+.line_on_both_sides:after {
+    left: 0.1em;
+    margin-left: 5px;
+}
+
+#more a {
+    color: white;
+    text-decoration: none;
+}
+
+/* End Click to see more */
+
+/* All section */
+.img_container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.left_bracket, .right_bracket {
+    font-size: 4.5em;
+}
+
+.section_icon {
+    margin: auto 10%;
+    opacity: 0;
+}
+
+.section_block {
+    margin: 5% auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section_subtitle {
+    font-size: 2.5em;
+}
+
+.content_row {
+    width: 70%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.content_row h1 {
+    font-size: 4.5em;
+    padding-bottom: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content_row p {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 1em;
+    width: 100%;
+}
+
+p > span {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* End all section */
+
+/* service */
+#service {
+    background: url("../img/WorkPage for Web.jpg") center;
+    background-size: cover;
+}
+
+#about .content_row {
+    padding-bottom: 12%;
+}
+
+#service .content_row {
+    padding-bottom: 20%;
+}
+
+.promo {
+    /*-webkit-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    /*-moz-clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    /*clip-path: polygon(0 27%, 100% 0, 100% 73%, 0% 100%);*/
+    -webkit-clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+    clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+    -moz-clip-path: polygon (0% 27%, 100% 0%, 100% 73%, 0% 100%);
+}
+
+/* End service */
+
+#team_photo {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+/* Contact */
+
+#contact .content_row {
+    width: inherit;
+}
+
+#contact ul {
+    font-family: 'Montserrat', serif;
+    width: 400px;
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#contact ul li img {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+}
+
+#contact ul li span {
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+
+/* End Contact */
+
+/* Form */
+form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    display: inline;
+    width: 49.5%;
+    color: white;
+    background-color: #ccc;
+    border-radius: 0px;
+    height: 50px;
+}
+
+#message {
+    color: white;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+ 
+input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+}
+
+ 
+input::-moz-placeholder {
+    /* !* Firefox 19+ *! */
+    color: white !important;
+}
+
+ 
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: white !important;
+}
+
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+}
+
+ 
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+ 
+textarea:-ms-input-placeholder {
+     color: white !important;
+}
+
+#submit {
+    border: 3px solid black;
+    font-style: italic;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* End Form */
+
+/* Footer */
+footer {
+    text-align: center;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin: -3em auto auto auto;
+}
+
+footer i {
+    padding: 5px;
+}
+
+footer p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/* End Footer */
+
+/* Animations */
+/* Underline From Center When scroll */
+.sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: #232323;
+    transition: width 0.8s ease-out, background-color 0.8s ease-out;
+}
+
+.sliding-middle-out.special:after {
+    width: 100%;
+}
+
+/* ENd Underline From Center When scroll */
+
+/* Navigation: Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #FFFFFF;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+/* Click to see more: Border fade */
+.hvr-border-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 4px transparent, 0 0 1px rgba(0, 0, 0, 0);
+    /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+    box-shadow: inset 0 0 0 3px white, 0 0 1px rgba(0, 0, 0, 0);
+    /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+/* Send Button: Shutter Out Horizontal */
+.hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: white;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #232323;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+}
+
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* End Animations */
+
